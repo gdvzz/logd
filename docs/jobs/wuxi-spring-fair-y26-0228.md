@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <!-- ---
 title: 2026年无锡市春季高校毕业生大型双选会相关岗位
 slug: jobs-wuxi-spring-fair-y26-0228
@@ -14,7 +10,9 @@ halo:
   name: e79cd878-a4ef-4451-85e1-b70c725aa404
   publish: true
 --- -->
-
+---
+layout: default
+---
 
 
 # 2026年无锡市春季高校毕业生大型双选会
