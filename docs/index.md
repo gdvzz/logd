@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 ---
 
 # George Donne 个人网站
