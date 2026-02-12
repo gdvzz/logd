@@ -2,8 +2,16 @@
 layout: default
 ---
 
-# 就业升学
+# 就业
 
-## 全职 jobs
+## 招聘 recam
 
-- 招聘会-260228：[链接↗](./wuxi-spring-fair-y26-0228.md)
+`recam = campus recruitment`
+
+- 无锡春季招聘会-260228：[链接↗](./wuxi-spring-fair-y26-0228.md)
+
+## 求职 jobs
+
+`jobs = job seeking`
+
+- 央企名录：[链接↗](./list-soe.md)
