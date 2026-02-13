@@ -1,15 +1,15 @@
 ---
 title: 2026年无锡市春季高校毕业生大型双选会相关岗位(未完待续)
-slug: jobs-wuxi-spring-fair-y26-0228
+slug: recam-wuxi-spring-fair-y26-0228
 excerpt: 2026年无锡市春季高校毕业生大型双选会相关岗位
 categories:
   - 招聘
 tags: []
 halo:
-  site: http://8.152.199.10:8090
+  site: https://ai2.gdvzz.com
   name: e79cd878-a4ef-4451-85e1-b70c725aa404
   publish: true
-ayout: default
+layout: default
 ---
  
 <!-- 

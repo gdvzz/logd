@@ -8,7 +8,7 @@ layout: default
 
 ## 就业
 
-- 就业首页：[链接↗](./jobs/)
+- 就业首页：[链接↗](./index-fsem.md)
 
 ## 建站
 
