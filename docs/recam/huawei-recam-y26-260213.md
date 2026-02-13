@@ -9,6 +9,7 @@ halo:
   site: https://ai2.gdvzz.com
   name: 83cfa71d-6fa9-464f-99fc-b2b318f60b79
   publish: true
+layout: default
 ---
 
 <!-- 
@@ -16,7 +17,7 @@ halo:
 layout: default
 --- -->
 
-# 华为2026届销售类岗位持续招聘中--260213
+# 华为2026届销售类岗位持续招聘中-260213
 
 `更新-260213` \| `发布-260213`
 
