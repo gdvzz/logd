@@ -13,7 +13,10 @@ layout: default
 
 ## 求职 jobs
 
+- 世界500强-2025年：[链接↗](./jobs/list-glb500-y2025.md)
 - 央企名录：[链接↗](./jobs/list-soe.md)
+- 中国500强-2025年：[链接↗](./jobs/list-chn500-y2025.md)
+- 中国互联网100强-2025年：[链接↗](./jobs/list-isc100-y2025.md)
 
 <!--  -->
 
