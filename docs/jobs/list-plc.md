@@ -10,7 +10,12 @@ halo:
   site: https://ai2.gdvzz.com
   name: 468bb0e3-677f-4821-a3a1-2733e9a93980
   publish: true
+layout: default
 ---
+
+<!-- ---
+layout: default
+--- -->
 
 # 中国大陆上市公司名录
 
@@ -301,7 +306,5 @@ B股信息也不采集。一是B股上市时间都在2000年之前，二是B股�
 
 
 <!--  -->
-<span style="font-size:12px; color:#999">
+<span style="font-size:12px; color:#999"> >>>THE END <<< </span>
 <!-- >>> end-of-page <<< -->
-\\\ THE END ///
-</span>
