@@ -1,5 +1,5 @@
 ---
-title: 2026年无锡市春季高校毕业生大型双选会相关岗位(未完待续)
+title: 2026年无锡市春季高校毕业生大型双选会相关岗位
 slug: recam-wuxi-spring-fair-y26-0228
 excerpt: 2026年无锡市春季高校毕业生大型双选会相关岗位
 categories:
@@ -9,7 +9,6 @@ halo:
   site: https://ai2.gdvzz.com
   name: e79cd878-a4ef-4451-85e1-b70c725aa404
   publish: true
-layout: default
 ---
  
 <!-- 
@@ -17,14 +16,16 @@ layout: default
 layout: default
 --- -->
 
-# 2026年无锡市春季高校毕业生大型双选会(未完待续)
+<!-- # 2026年无锡市春季高校毕业生大型双选会相关岗位 -->
 
-`更新-260212` \| `发布-260210`
+`更新-260224` \| `发布-260210`
 
 2026年无锡市春季高校毕业生大型双选会：[无锡人社官微链接↗](https://mp.weixin.qq.com/s/yryNNeMTtR3_XlNibo1cpg)
 
 - 活动时间：2026年2月28日（正月十二）9:30-13:00
 - 活动地点：无锡市新体育中心（太湖西大道1500号）体育馆A馆一楼
+
+> 260224：招聘会岗位列表有稍许增加，但岗位和学院相关性不强，因此本文没有更新。
 
 
 ## 相关说明
@@ -2765,6 +2766,4 @@ layout: default
 7. 具有良好的团队合作精神和沟通能力；
 8. 同等条件下，中共党员优先。
 
-<span style="font-size:12px; color:#999">
-2026年2月12日 于无锡
-</span>
+<span style="font-size:12px; color:#999"> >>>THE END <<< </span>
