@@ -26,7 +26,7 @@ layout: default
 
 - 国家大学生就业服务平台使用指南：[链接↗](./jobs/ncss.md)
 - 简历优化建议：[链接↗](./jobs/resume-optips.md)
-- 简历优化CASE-2026年：[链接↗](./jobs/resume-optips.md)
+- 简历优化CASE-2026年：[链接↗](./jobs/resume-case-y26.md)
 
 
 ## 经验 exp
