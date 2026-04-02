@@ -1,5 +1,5 @@
 ---
-title: 百度2026MTS管培生春季扩招正式启动-260112
+title: 百度_26届管培生-260112
 slug: recam-baidu-recam-y26-260112
 excerpt: 百度2026MTS管培生春季扩招正式启动
 categories:

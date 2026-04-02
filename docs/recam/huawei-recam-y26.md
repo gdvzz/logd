@@ -1,5 +1,5 @@
 ---
-title: 2026届华为应届生招聘岗位(未完待续)
+title: 华为_26届校招(tbc)
 slug: recam-huawei-recam-y26
 excerpt: 2026届华为应届生招聘岗位
 categories:

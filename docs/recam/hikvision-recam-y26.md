@@ -1,12 +1,12 @@
 ---
-title: 海康威视2026校园招聘岗位(未完待续)
-slug: jobs-hikvision-recam-y26
+title: 海康威视_26届校招(tbc)
+slug: recam-hikvision-recam-y26
 excerpt: 海康威视2026校园招聘岗位
 categories:
-  - 入职招聘
+  - 招聘
 tags: []
 halo:
-  site: http://8.152.199.10:8090
+  site: https://ai2.gdvzz.com
   name: 3eda7ad8-582e-40a3-9087-61f564f123f7
   publish: true
 ---

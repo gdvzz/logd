@@ -1,5 +1,5 @@
 ---
-title: 国网江苏公司2026届招聘（第二批）岗位
+title: 国网江苏_26届招聘(第二批)
 slug: recam-sgcc-js-recam-y26-b2
 excerpt: 国网江苏公司2026届招聘（第二批）岗位（部分），和学院相关的。
 categories:

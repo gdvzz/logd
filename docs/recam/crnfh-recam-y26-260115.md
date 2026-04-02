@@ -1,5 +1,5 @@
 ---
-title: 华润五丰2026届校园招聘正式启动-260115
+title: 华润五丰_26届校招-260115
 slug: recam-crnfh-recam-y26-260115
 excerpt: 华润五丰2026届校园招聘正式启动，近 10个相关岗位。
 categories:

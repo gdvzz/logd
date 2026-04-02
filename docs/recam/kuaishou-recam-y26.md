@@ -1,5 +1,5 @@
 ---
-title: 快手2026届应届生招聘岗位（部分）
+title: 快手_26届校招
 slug: recam-kuaishou-recam-y26
 excerpt: 快手2026届应届生招聘岗位（部分）
 categories:
@@ -9,7 +9,6 @@ halo:
   site: https://ai2.gdvzz.com
   name: e1bb684f-eb33-4f74-9cd7-4e33461a86d3
   publish: true
-layout: default
 ---
 <!-- 
 ---

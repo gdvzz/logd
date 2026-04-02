@@ -1,5 +1,5 @@
 ---
-title: 快手2026届校园招聘持续招聘中-260115
+title: 快手_26届校招-260115
 slug: recam-kuaishou-recam-y26-260115
 excerpt: 快手2026届校园招聘持续招聘中，近20个岗位。
 categories:

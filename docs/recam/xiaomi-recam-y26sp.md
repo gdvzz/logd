@@ -1,6 +1,6 @@
 ---
 title: 小米_26届春招
-slug: recam-小米-recam-y26sp
+slug: recam-xiaomi-recam-y26sp
 excerpt: 小米（世界500强 + 中国500强）26届春招岗位。超过10大类、180个岗位，总有一个适合你。
 categories:
   - 招聘

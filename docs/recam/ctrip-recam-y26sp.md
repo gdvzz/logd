@@ -1,5 +1,5 @@
 ---
-title: 携程26届春招岗位
+title: 携程_26届春招
 slug: recam-ctrip-recam-y26sp
 excerpt: 携程26届春招岗位（部分）
 categories:

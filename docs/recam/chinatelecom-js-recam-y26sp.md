@@ -1,5 +1,5 @@
 ---
-title: 中国电信江苏公司2026年春季校园招聘岗位
+title: 电信江苏_26届春招
 slug: recam-chinatelecom-js-recam-y26sp
 excerpt: 中国电信江苏公司2026年春季校园招聘岗位（部分），和学院相关的。
 categories:

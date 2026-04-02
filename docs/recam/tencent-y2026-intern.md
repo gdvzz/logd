@@ -1,12 +1,13 @@
 ---
-title: 腾讯2026实习生招聘技术提前批正式启动！
-slug: jobs-tencent-y2026-intern
+title: 腾讯_27届实习
+slug: recam-tencent-recam-y27-intern
 excerpt: 腾讯2026实习生招聘技术提前批
 categories:
-  - 实习岗位
-tags: []
+  - 招聘
+tags:
+  - 实习
 halo:
-  site: http://8.152.199.10:8090
+  site: https://ai2.gdvzz.com
   name: e6546d64-f52c-4f71-a555-3e0012cead54
   publish: true
 ---
@@ -19,9 +20,9 @@ last-update: 2026-01-28
 firt-on: 2026-01-28
 --- -->
 
-# 腾讯2026实习生招聘技术提前批正式启动！
+<!-- # 腾讯2026实习生招聘技术提前批正式启动！ -->
 
-`更新：26-01-29` \| `发布：26-01-28`
+`更新-260129` \| `发布-260128`
 
 `来源：腾讯招聘，2026-01-27`
 

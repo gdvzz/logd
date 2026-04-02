@@ -1,5 +1,5 @@
 ---
-title: 华润五丰2026届校园招聘岗位
+title: 华润五丰_26届校招
 slug: recam-crnfh-recam-y26
 excerpt: 华润五丰2026届校园招聘岗位
 categories:

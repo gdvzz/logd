@@ -1,5 +1,5 @@
 ---
-title: 2026年无锡市春季高校毕业生大型双选会相关岗位
+title: 26届春招会_无锡-260228
 slug: recam-wuxi-spring-fair-y26-0228
 excerpt: 2026年无锡市春季高校毕业生大型双选会相关岗位
 categories:

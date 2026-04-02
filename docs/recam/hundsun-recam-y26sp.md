@@ -1,5 +1,5 @@
 ---
-title: 恒生电子2026届春季校招岗位
+title: 恒生电子_26届春招
 slug: recam-hundsun-recam-y26sp
 excerpt: 恒生电子2026届春季校招岗位部分），和学院相关的。
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 华为2026届销售类岗位持续招聘中-260213
+title: 华为_26届校招-260213
 slug: recam-huawei-recam-y26-260213
 excerpt: 华为2026届销售类岗位持续招聘中
 categories:
@@ -9,7 +9,6 @@ halo:
   site: https://ai2.gdvzz.com
   name: 83cfa71d-6fa9-464f-99fc-b2b318f60b79
   publish: true
-layout: default
 ---
 
 <!-- 
@@ -17,7 +16,7 @@ layout: default
 layout: default
 --- -->
 
-# 华为2026届销售类岗位持续招聘中-260213
+<!-- # 华为2026届销售类岗位持续招聘中-260213 -->
 
 `更新-260213` \| `发布-260213`
 

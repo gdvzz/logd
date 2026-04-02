@@ -1,5 +1,5 @@
 ---
-title: 阿里云 2026届管培生人才项目持续招募中-260129
+title: 阿里云_26届管培生-260129
 slug: recam-aliyun-recam-y26-260129
 excerpt: 阿里云 2026届管培生人才项目持续招募中
 categories:

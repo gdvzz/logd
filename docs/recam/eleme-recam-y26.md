@@ -1,5 +1,5 @@
 ---
-title: 淘宝闪购2026届校园招聘岗位
+title: 淘宝闪购_26届校招
 slug: recam-eleme-recam-y26
 excerpt: 淘宝闪购2026届校园招聘岗位
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 华勤26届春招岗位
+title: 华勤_26届春招
 slug: recam-huaqin-recam-y26sp
 excerpt: 华勤26届春招岗位（部分）
 categories:
