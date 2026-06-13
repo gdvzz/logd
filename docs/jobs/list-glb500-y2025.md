@@ -1,6 +1,6 @@
 ---
-title: 2025年《财富》世界500强排行榜
-slug: jobs-list-glb500-y2025
+title: 世界500强_25年
+slug: js-list-glb500-y2025
 excerpt: 2025年《财富》世界500强排行榜
 categories:
   - 求职
@@ -18,7 +18,7 @@ layout: default
 
 <!-- # 2025年《财富》世界500强排行榜 -->
 
-`更新 260206` \| `发布 260206` 
+`更新-260206` \| `发布-260206` 
 
 2025年《财富》世界500强排行榜：[官网链接↗](https://www.fortunechina.com/fortune500/c/2025-07/29/content_467206.htm)
 

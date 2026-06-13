@@ -1,6 +1,6 @@
 ---
-title: 中国大陆上市公司名录
-slug: jobs-list-plc
+title: 上市公司_大陆
+slug: js-list-plc
 excerpt: 中国大陆上市公司名录，持续更新
 categories:
   - 求职
@@ -10,14 +10,13 @@ halo:
   site: https://ai2.gdvzz.com
   name: 468bb0e3-677f-4821-a3a1-2733e9a93980
   publish: true
-layout: default
 ---
 
 <!-- ---
 layout: default
 --- -->
 
-# 中国大陆上市公司名录
+<!-- # 中国大陆上市公司名录 -->
 
 `更新-260224` \| `发布-260223`
 

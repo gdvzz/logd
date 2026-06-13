@@ -1,13 +1,13 @@
 ---
 title: 央企名录
-slug: jobs-list-soe
+slug: js-list-soe
 excerpt: 央企名录
 categories:
   - 求职
 tags:
   - 榜单
 halo:
-  site: http://8.152.199.10:8090
+  site: https://ai2.gdvzz.com
   name: dbb28c22-a4f3-42d6-8da7-a74ba26c5bcd
   publish: true
 layout: default
@@ -18,7 +18,7 @@ layout: default
 layout: default
 --- -->
 
-# 央企名录
+<!-- # 央企名录 -->
 
 `更新-260213` \| `发布-260211`
 

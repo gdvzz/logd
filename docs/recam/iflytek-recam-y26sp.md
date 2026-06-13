@@ -18,7 +18,20 @@ layout: default
 
 <!-- # 科大讯飞_26届春招 -->
 
-`更新-260411` \| `发布-260411`
+`更新-260501` \| `发布-260411`
+
+
+<details>
+    <summary>ℹ️ 更新历史</summary>
+<br>
+
+**260501：新增3个岗位**
+
+- [产品运营-音乐方向](#产品运营-音乐方向)
+- [前端开发工程师](#前端开发工程师)
+- [移动端开发工程师-Android](#移动端开发工程师-android)
+
+</details>
 
 <!-- <img src="https://img.gdvzz.com/rcb/y26/iflytek.png" alt="rcb-y26-iflytek" style="max-height: 4rem; width: auto; height: auto; max-width: 100%;">
 <img src="https://img.gdvzz.com/rcb/y26/iflytek.png" alt="rcb-y26-iflytek" style="max-height: 2rem; width: auto; height: auto; max-width: 100%;">
@@ -56,6 +69,7 @@ layout: default
 ### 产品类
 
 - [产品经理](#产品经理)🔥
+- [产品运营-音乐方向](#产品运营-音乐方向)
 - [产品运营](#产品运营)
 <!-- 以下岗位未收录  -->
 - 社区内容运营`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=bb5a652a-e9cf-441b-92b7-9eea7be0ecfc)
@@ -77,10 +91,13 @@ layout: default
 ### 研发类
 
 - [测试开发工程师](#测试开发工程师)
+- [前端开发工程师](#前端开发工程师)🔥
+- [移动端开发工程师-Android](#移动端开发工程师-android)
 - [运维开发工程师-SRE方向](#运维开发工程师-sre方向)
 - [C++开发工程师](#c%2B%2B开发工程师)
-- [Go开发工程师](#go开发工程师)
+- [Go开发工程师](#go开发工程师)🔥
 - [Java开发工程师](#java开发工程师)🔥
+
 
 ### 研究算法类`(硕)`
 
@@ -109,7 +126,11 @@ layout: default
 - [市场营销策划](#市场营销策划)
 - [售前咨询](#售前咨询)
 <!-- 以下岗位未收录  -->
+- 电商渠道运营`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=9fc62362-f1ac-4d7a-8af4-16eb6a2b4c9c)
+- 海外品牌经理（日本）`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=b1a4947b-0194-40e2-a415-7a1bfe8b4309)
 - 零售运营-学习机方向`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=131c40ab-323f-4408-8843-81262e073f65)
+- 数字化营销经理`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=14208d72-72a2-44c1-9e9e-e1e249a9668d)
+- 用户运营`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=35c2ad38-7ddc-4235-b208-9312b3c200eb)
 
 ### 职能类
 
@@ -119,6 +140,8 @@ layout: default
 - 财经会计`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=196ff607-a055-4c0b-844a-d09abe5cba27)
 - 客户经理-融资租赁方向`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=51ec9452-a992-46c1-a565-49d3e687c800)
 - 品牌经理-媒介公关方向`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=af042a85-b7d4-4dee-a155-2b1cc56367b4)
+- 品牌经理`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=63b8b95e-d07b-42c4-a580-9c4fccc0a727)
+- 人力资源`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=af042a85-b7d4-4dee-a155-2b1cc56367b4)
 - 行政支持`(nc)`[↗](https://iflytek.zhiye.com/campus/detail?jobAdId=c5a8a5e2-fd42-4663-b4e0-9b9fe99e92eb)
 
 ### AI研发类
@@ -832,6 +855,76 @@ layout: default
 4. 能承受较大的工作压力和强度，能接受组织工作统筹安排，能接受出差。
 
 [官网投递↗](https://iflytek.zhiye.com/campus/detail?jobAdId=45aaf621-bf12-428d-9059-8c0a8acc0219)
+
+
+---
+
+## 前端开发工程师
+
+`校园招聘` \| `全职` \| `安徽省·合肥市` \| `2026-04-22 发布` 
+
+**工作职责**
+
+1. 负责软件产品前端页面和交互功能的开发； 
+2. 参与前端团队通用组件库、可视化图表库等的建设和维护；
+3. 参与前端技术选型、Web前沿技术研究和新技术调研；
+
+**任职资格**
+
+1. 重点院校本科及以上学历，计算机相关专业，至少掌握一种开发语言（如JS，PHP，Java等）；
+2. 熟悉HTML5、CSS3、JS（ES5/ES6）等前端开发技术，熟悉页面架构和布局；
+3. 熟练使用React、Vue、jQuery等前端框架；
+4. 熟悉模块化、前端编译和构建工具，例如webpack、babel等；
+5. 思路清晰，思维敏捷，拥有快速的学习能力，善于与他人沟通协作，有强烈的上进心和求知欲。
+
+[官网投递↗](https://iflytek.zhiye.com/campus/detail?jobAdId=ef7cf2db-0be2-42e1-806f-674d628a466c)
+
+---
+
+## 移动端开发工程师-Android
+
+`校园招聘` \| `全职` \| `安徽省·合肥市` \| `2026-04-22 发布` 
+
+**工作职责**
+
+1. 负责公司Android产品开发和版本迭代
+2. 参与产品技术评审、APP性能优化、体验优化、新技术调研；
+3. 根据公司技术规范编写相应的技术文档；
+4. 解决产品在Android端上的复杂疑难问题，保证产品开发的质量和效率；
+
+**任职资格**
+
+1. 重点院校本科及以上学历，计算机相关专业；
+2. 掌握Java、SQL语言，熟悉数据库操作；
+3. 掌握安卓移动应用开发方法及理论。
+4. 思路清晰，思维敏捷，拥有快速的学习能力，善于与他人沟通协作，有强烈的上进心和求知欲。
+
+[官网投递↗](https://iflytek.zhiye.com/campus/detail?jobAdId=08455bdc-985c-4421-8ddc-937a54544433)
+
+---
+
+## 产品运营-音乐方向
+`校园招聘` \| `安徽省·合肥市,海南省·海口市,四川省·成都市` \| `2026-04-21 发布` 
+
+**工作职责**
+
+1. 负责音乐厂牌的策划定位与整体运营，统筹音乐内容规划、推广执行、音乐人合作等项目，协同内外部资源推进落地；  
+2. 分析音乐行业发展趋势与用户行为特征，制定契合品牌调性的内容运营策略；  
+3. 开展音乐人发掘、评估与合作拓展，推动优质音乐人引入及长期合作关系建设；  
+4. 整合媒体、品牌及平台资源，策划并执行跨界联动与IP商业化项目，提升内容传播效能与商业价值转化。
+
+**任职资格**
+
+1. 本科及以上学历，专业不限；  
+2. 熟悉音乐产业运作逻辑，了解音乐制作基础流程、版权管理常识及主流宣发渠道，对流行、独立、电子等音乐风格具有基本认知与兴趣；  
+3. 具备良好的审美素养、资源整合意识与基础商业理解能力，能兼顾内容品质与用户需求；  
+4. 熟悉国内主流音乐平台（如网易云音乐、QQ音乐、酷狗音乐等）及社交媒体内容生态；  
+5. 具备跨团队沟通协作能力，能有效推进多任务并行执行。
+
+[官网投递↗](https://iflytek.zhiye.com/campus/detail?jobAdId=08455bdc-985c-4421-8ddc-937a54544433)
+
+
+
 
 <!--  -->
 <span style="font-size:12px; color:#999">THE END</span>

@@ -1,6 +1,6 @@
 ---
-title: 中国民营企业500强-2025年
-slug: jobs-list-fic500-y2025
+title: 民营500强_25年
+slug: js-list-fic500-y2025
 excerpt: >-
   包括：2025中国民营企业500强榜单，2025中国制造业民营企业500强榜单，2025中国服务业民营企业100强榜单。由中华全国工商业联合会（All-China
   Federaion of Industry and Commerce）发布。
