@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 简介</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* CSS3 页面专用样式 */
+        .demo-btn {
+            display: inline-block;
+            padding: 0.5rem 1.2rem;
+            border: none;
+            border-radius: 0.6rem;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: default;
+            margin: 0.3rem 0;
+        }
+        .demo-box {
+            background: #fff;
+            border-radius: 0.6rem;
+            padding: 0.8rem 1rem;
+            border: 1px solid #e2e8f0;
+            margin: 0.5rem 0;
+        }
+        .demo-box h4 {
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+        }
+        .demo-box p {
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+        .flex-demo {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin: 0.3rem 0;
+        }
+        .flex-demo span {
+            background: #dbeafe;
+            padding: 0.2rem 0.8rem;
+            border-radius: 0.4rem;
+            font-size: 0.75rem;
+        }
+        .grid-demo {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.3rem;
+            margin: 0.3rem 0;
+        }
+        .grid-demo span {
+            background: #f1f5f9;
+            padding: 0.2rem;
+            text-align: center;
+            font-size: 0.7rem;
+            border-radius: 0.3rem;
+        }
+        .selector-demo {
+            background: #f8fafc;
+            border-radius: 0.4rem;
+            padding: 0.5rem 0.8rem;
+            margin: 0.3rem 0;
+            font-size: 0.85rem;
+        }
+        .selector-demo code {
+            background: #e2e8f0;
+            padding: 0.05rem 0.4rem;
+            border-radius: 0.2rem;
+            font-size: 0.8rem;
+        }
+        .style-block {
+            background: #1e293b;
+            color: #f1f5f9;
+            border-radius: 0.4rem;
+            padding: 0.5rem 0.8rem;
+            font-family: monospace;
+            font-size: 0.75rem;
+            overflow-x: auto;
+            margin: 0.3rem 0;
+        }
+        .style-block .comment {
+            color: #94a3b8;
+        }
+        .style-block .selector {
+            color: #fcd34d;
+        }
+        .style-block .property {
+            color: #67e8f9;
+        }
+        .style-block .value {
+            color: #a78bfa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <small>&lt;header&gt;</small>
+        <h1>🎨 CSS3 简介</h1>
+        <a href="index.html" class="back">← 返回首页</a>
+    </header>
+
+    <nav>
+        <small>&lt;nav&gt;</small>
+        <a href="h5.html">H5</a>
+        <a href="css3.html" class="active">CSS3</a>
+        <a href="js.html">JS</a>
+    </nav>
+
+    <main>
+        <small>&lt;main&gt;</small>
+
+        <section>
+            <small>&lt;section&gt;</small>
+            <article>
+                <small>&lt;article&gt;</small>
+                <h2>什么是 CSS3？</h2>
+                <p>CSS3 是层叠样式表的第三代，用于控制 HTML 元素的<strong>外观和布局</strong>。它带来了圆角、阴影、渐变、动画、网格/弹性布局等强大特性。</p>
+
+                <h3>怎么写样式？</h3>
+                <p>CSS 由<strong>选择器</strong>和<strong>声明块</strong>组成：</p>
+                <div class="style-block">
+                    <span class="selector">h1</span> { <br />
+                    &nbsp;&nbsp;<span class="property">color</span>: <span class="value">#d97706</span>;<br />
+                    &nbsp;&nbsp;<span class="property">font-size</span>: <span class="value">2rem</span>;<br />
+                    }
+                </div>
+                <p><code>h1</code> 是选择器，<code>color: #d97706</code> 是声明（属性和值）。</p>
+
+                <h3>怎么选择标签？</h3>
+                <div class="selector-demo">
+                    <p><strong>标签选择器</strong> — 选中所有同类标签</p>
+                    <code>p { color: #333; }</code>
+                </div>
+                <div class="selector-demo">
+                    <p><strong>类选择器</strong> — 选中带有特定 class 的元素（以 <code>.</code> 开头）</p>
+                    <code>.demo-box { background: #f1f5f9; }</code>
+                </div>
+                <div class="selector-demo">
+                    <p><strong>ID 选择器</strong> — 选中唯一 ID 的元素（以 <code>#</code> 开头）</p>
+                    <code>#header { border-bottom: 2px solid #d97706; }</code>
+                </div>
+                <div class="selector-demo">
+                    <p><strong>组合选择器</strong> — 同时选中多个元素</p>
+                    <code>h1, h2, h3 { font-weight: 600; }</code>
+                </div>
+                <div class="selector-demo">
+                    <p><strong>后代选择器</strong> — 选中某个元素内部的子元素</p>
+                    <code>article p { line-height: 1.8; }</code>
+                </div>
+
+                <h3>本页 CSS 演示</h3>
+                <p>下方展示了 CSS3 的核心特性：</p>
+
+                <div class="demo-box">
+                    <h4>🎨 渐变按钮</h4>
+                    <span class="demo-btn">✨ CSS3 渐变按钮</span>
+                    <p>使用 <code>linear-gradient</code> 和 <code>border-radius</code></p>
+                </div>
+
+                <div class="demo-box">
+                    <h4>📐 Flexbox 布局</h4>
+                    <div class="flex-demo">
+                        <span>Flex 1</span>
+                        <span>Flex 2</span>
+                        <span>Flex 3</span>
+                        <span>Flex 4</span>
+                    </div>
+                    <p>使用 <code>display: flex</code> 实现弹性布局</p>
+                </div>
+
+                <div class="demo-box">
+                    <h4>🧩 Grid 网格</h4>
+                    <div class="grid-demo">
+                        <span>1</span><span>2</span><span>3</span>
+                        <span>4</span><span>5</span><span>6</span>
+                    </div>
+                    <p>使用 <code>display: grid</code> 实现二维布局</p>
+                </div>
+
+                <h3>本页源码说明</h3>
+                <p>页面布局使用了 CSS Grid（两栏）和 Flexbox（导航）。CSS3 演示部分展示了渐变、圆角、弹性布局和网格布局的实际应用。</p>
+
+                <h4>核心特性</h4>
+                <ul>
+                    <li>Flexbox / Grid — 现代布局</li>
+                    <li>渐变（Gradient）— 无需图片</li>
+                    <li>圆角（Border-radius）— 柔和视觉</li>
+                    <li>阴影（Box-shadow）— 立体感</li>
+                </ul>
+            </article>
+        </section>
+
+        <aside>
+            <small>&lt;aside&gt;</small>
+            <section>
+                <small>&lt;aside&gt;</small>
+                <h3>📌 CSS3 特性速览</h3>
+                <ul>
+                    <li>Flexbox — 一维布局</li>
+                    <li>Grid — 二维布局</li>
+                    <li>渐变 — 颜色过渡</li>
+                    <li>圆角 — 柔和边缘</li>
+                    <li>阴影 — 立体感</li>
+                    <li>过渡 — 动画效果</li>
+                </ul>
+            </section>
+            <section>
+                <small>&lt;aside&gt;</small>
+                <h3>📖 相关阅读</h3>
+                <ul>
+                    <li>Flexbox 完全指南</li>
+                    <li>Grid 布局入门</li>
+                    <li>CSS 渐变用法</li>
+                </ul>
+            </section>
+        </aside>
+
+    </main>
+
+    <footer>
+        <small>&lt;footer&gt;</small>
+        <p>© 2026 · CSS3 样式与布局</p>
+    </footer>
+
+</body>
+</html>

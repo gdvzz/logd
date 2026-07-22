@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript 简介</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* JS 页面专用样式 */
+        .theme-toggle {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.3rem 0;
+        }
+        .theme-toggle button {
+            padding: 0.3rem 0.8rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.4rem;
+            background: #fff;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: 0.15s;
+        }
+        .theme-toggle button:hover {
+            background: #f1f5f9;
+        }
+        .theme-toggle .switch {
+            width: 40px;
+            height: 22px;
+            background: #e2e8f0;
+            border-radius: 40px;
+            position: relative;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .theme-toggle .switch::after {
+            content: '';
+            width: 18px;
+            height: 18px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: 0.2s;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+        }
+        .theme-toggle .switch.active {
+            background: #d97706;
+        }
+        .theme-toggle .switch.active::after {
+            left: 20px;
+        }
+        .demo-box {
+            background: #fff;
+            border-radius: 0.6rem;
+            padding: 0.8rem 1rem;
+            border: 1px solid #e2e8f0;
+            margin: 0.5rem 0;
+        }
+        .demo-box h4 {
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+        }
+        .demo-box p {
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+        .counter-demo {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin: 0.3rem 0;
+        }
+        .counter-demo button {
+            padding: 0.2rem 0.8rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.4rem;
+            background: #fff;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .counter-demo button:hover {
+            background: #f1f5f9;
+        }
+        .counter-demo span {
+            font-size: 1.2rem;
+            font-weight: 600;
+            min-width: 2rem;
+            text-align: center;
+        }
+
+        /* 深色模式（通过 JS 切换） */
+        body.dark {
+            background: #1e293b;
+            color: #f1f5f9;
+        }
+        body.dark header,
+        body.dark nav,
+        body.dark article,
+        body.dark aside section,
+        body.dark footer,
+        body.dark main,
+        body.dark section,
+        body.dark .demo-box {
+            background: #334155;
+            border-color: #475569;
+            color: #f1f5f9;
+        }
+        body.dark .demo-box p,
+        body.dark .card p,
+        body.dark header p {
+            color: #cbd5e1;
+        }
+        body.dark .theme-toggle button {
+            background: #475569;
+            border-color: #64748b;
+            color: #f1f5f9;
+        }
+        body.dark .theme-toggle button:hover {
+            background: #64748b;
+        }
+        body.dark .counter-demo button {
+            background: #475569;
+            border-color: #64748b;
+            color: #f1f5f9;
+        }
+        body.dark .counter-demo button:hover {
+            background: #64748b;
+        }
+        body.dark code {
+            background: #475569;
+            color: #f1f5f9;
+        }
+        body.dark .back {
+            color: #fbbf24;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <small>&lt;header&gt;</small>
+        <h1>⚡ JavaScript 简介</h1>
+        <a href="index.html" class="back">← 返回首页</a>
+    </header>
+
+    <nav>
+        <small>&lt;nav&gt;</small>
+        <a href="h5.html">H5</a>
+        <a href="css3.html">CSS3</a>
+        <a href="js.html" class="active">JS</a>
+    </nav>
+
+    <main>
+        <small>&lt;main&gt;</small>
+
+        <section>
+            <small>&lt;section&gt;</small>
+            <article>
+                <small>&lt;article&gt;</small>
+                <h2>什么是 JavaScript？</h2>
+                <p>JavaScript 是 Web 的<strong>动态脚本语言</strong>，为网页赋予交互、逻辑和数据处理能力，是 Web 应用的核心驱动。</p>
+
+                <h3>本页 JS 演示</h3>
+
+                <div class="demo-box">
+                    <h4>🌓 浅色 / 深色 切换</h4>
+                    <div class="theme-toggle">
+                        <span style="font-size:0.8rem;">☀️ 浅色</span>
+                        <span class="switch" id="themeSwitch"></span>
+                        <span style="font-size:0.8rem;">🌙 深色</span>
+                    </div>
+                    <p>点击开关切换页面主题，使用 JavaScript 操作 <code>classList</code></p>
+                </div>
+
+                <div class="demo-box">
+                    <h4>🔢 计数器</h4>
+                    <div class="counter-demo">
+                        <button id="decBtn">−</button>
+                        <span id="counterDisplay">0</span>
+                        <button id="incBtn">+</button>
+                        <button id="resetBtn" style="font-size:0.7rem; padding:0.2rem 0.6rem;">重置</button>
+                    </div>
+                    <p>点击按钮增减数字，使用 JavaScript 操作 <code>textContent</code></p>
+                </div>
+
+                <h3>本页源码说明</h3>
+                <p>JavaScript 代码实现了两个功能：</p>
+                <ul>
+                    <li><strong>主题切换</strong> — 点击开关切换 <code>body</code> 的 <code>dark</code> class，CSS 自动响应</li>
+                    <li><strong>计数器</strong> — 点击按钮更新 <code>textContent</code>，演示 DOM 操作</li>
+                </ul>
+                <p>所有交互逻辑都在页面底部的 <code>&lt;script&gt;</code> 标签中实现。</p>
+            </article>
+        </section>
+
+        <aside>
+            <small>&lt;aside&gt;</small>
+            <section>
+                <small>&lt;aside&gt;</small>
+                <h3>📌 JS 核心能力</h3>
+                <ul>
+                    <li>DOM 操作 — 修改页面</li>
+                    <li>事件处理 — 响应用户</li>
+                    <li>数据存储 — localStorage</li>
+                    <li>异步请求 — fetch / AJAX</li>
+                    <li>动画控制 — requestAnimationFrame</li>
+                </ul>
+            </section>
+            <section>
+                <small>&lt;aside&gt;</small>
+                <h3>📖 相关阅读</h3>
+                <ul>
+                    <li>JavaScript DOM 教程</li>
+                    <li>事件监听详解</li>
+                    <li>ES6 语法入门</li>
+                </ul>
+            </section>
+        </aside>
+
+    </main>
+
+    <footer>
+        <small>&lt;footer&gt;</small>
+        <p>© 2026 · JavaScript 交互逻辑</p>
+    </footer>
+
+    <script>
+        // ===== 主题切换 =====
+        const themeSwitch = document.getElementById('themeSwitch');
+        let isDark = false;
+
+        themeSwitch.addEventListener('click', function() {
+            isDark = !isDark;
+            this.classList.toggle('active');
+            document.body.classList.toggle('dark');
+        });
+
+        // ===== 计数器 =====
+        const counterDisplay = document.getElementById('counterDisplay');
+        const incBtn = document.getElementById('incBtn');
+        const decBtn = document.getElementById('decBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        let count = 0;
+
+        function updateCounter() {
+            counterDisplay.textContent = count;
+        }
+
+        incBtn.addEventListener('click', function() {
+            count++;
+            updateCounter();
+        });
+
+        decBtn.addEventListener('click', function() {
+            count--;
+            updateCounter();
+        });
+
+        resetBtn.addEventListener('click', function() {
+            count = 0;
+            updateCounter();
+        });
+    </script>
+
+</body>
+</html>

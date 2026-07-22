@@ -1,0 +1,244 @@
+/* ===== style.css 公用样式 ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f1f5f9;
+    font-family: system-ui, sans-serif;
+    padding: 1.2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* 卡片通用 */
+header,
+nav,
+article,
+aside section,
+footer,
+main,
+section {
+    background: #fff;
+    border-radius: 0.6rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid #e2e8f0;
+}
+header,
+nav,
+footer,
+main {
+    margin-bottom: 1rem;
+}
+
+/* 页眉 */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+header h1 {
+    font-size: 1.4rem;
+}
+header p {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.1rem;
+}
+.back {
+    color: #d97706;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.back:hover {
+    text-decoration: underline;
+}
+
+/* 导航 */
+nav {
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+    padding: 0.4rem 0.6rem;
+    background: #f8fafc;
+}
+nav a {
+    text-decoration: none;
+    color: #334155;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: 0.1s;
+}
+nav a:hover {
+    background: #e2e8f0;
+}
+nav a.active {
+    background: #d97706;
+    color: #fff;
+}
+
+/* 主区域：两栏 */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+main small {
+    grid-column: 1 / -1;
+    margin-bottom: 0.2rem;
+}
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+/* article 通用 */
+article h2 {
+    font-size: 1.5rem;
+}
+article h3 {
+    font-size: 1.1rem;
+    margin: 0.8rem 0 0.2rem;
+}
+article h4 {
+    font-size: 1rem;
+    margin: 0.6rem 0 0.1rem;
+}
+article p {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+}
+article pre {
+    background: #f1f5f9;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    overflow-x: auto;
+    margin: 0.3rem 0 0.5rem;
+}
+article pre code {
+    background: transparent;
+    padding: 0;
+    font-size: 0.8rem;
+}
+article ul,
+aside ul {
+    list-style: none;
+    margin: 0.2rem 0 0.4rem;
+}
+article ul li,
+aside ul li {
+    font-size: 0.95rem;
+    padding: 0.1rem 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+/* 小标签 */
+small {
+    display: inline-block;
+    background: #dbeafe;
+    padding: 0.1rem 0.6rem;
+    border-radius: 40px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #1e40af;
+}
+
+/* 侧边栏 */
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+aside section {
+    padding: 0.6rem 1rem;
+}
+aside h3 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    border-bottom: 2px solid #f1f5f9;
+    padding-bottom: 0.2rem;
+}
+
+/* 首页卡片 */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.card {
+    background: #fff;
+    border-radius: 0.6rem;
+    padding: 1.2rem 1rem;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    transition: 0.15s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.card:hover {
+    border-color: #d97706;
+    background: #fefaf5;
+}
+.card .icon {
+    font-size: 2.4rem;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.card h2 {
+    font-size: 1.2rem;
+}
+.card p {
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+/* 页脚 */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.65rem;
+    color: #64748b;
+}
+footer p {
+    margin: 0;
+}
+
+/* 响应式 */
+@media (max-width: 780px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+    nav {
+        gap: 0.3rem;
+        font-size: 0.8rem;
+    }
+    nav a {
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+    }
+}

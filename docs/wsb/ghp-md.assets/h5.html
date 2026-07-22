@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 简介</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <small>&lt;header&gt;</small>
+        <h1>📄 HTML5 简介</h1>
+        <a href="index.html" class="back">← 返回首页</a>
+    </header>
+
+    <nav>
+        <small>&lt;nav&gt;</small>
+        <a href="h5.html" class="active">H5</a>
+        <a href="css3.html">CSS3</a>
+        <a href="js.html">JS</a>
+    </nav>
+
+    <main>
+        <small>&lt;main&gt;</small>
+
+        <section>
+            <small>&lt;section&gt;</small>
+            <article>
+                <small>&lt;article&gt;</small>
+                <h2>什么是 HTML5？</h2>
+                <p>HTML5 是超文本标记语言的第五次重大修订，提供了丰富的<strong>语义标签</strong>，如 header、footer、article、section、aside、nav、main 等，让页面结构清晰，利于 SEO 和可访问性。</p>
+
+                <h3>本页源码说明</h3>
+                <p>这个页面完全使用语义标签构建，没有使用 div 或 span。每个区块左上角的蓝色小标签标注了对应的 HTML 标签名称。</p>
+
+                <h4>完整源码结构</h4>
+                <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="zh-CN"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt;HTML5 简介&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt; 页眉区域 &lt;/header&gt;
+    &lt;nav&gt; 导航链接 &lt;/nav&gt;
+    &lt;main&gt;
+        &lt;section&gt;
+            &lt;article&gt; 主文章内容 &lt;/article&gt;
+        &lt;/section&gt;
+        &lt;aside&gt; 侧边栏信息 &lt;/aside&gt;
+    &lt;/main&gt;
+    &lt;footer&gt; 页脚 &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+                <h4>核心标签</h4>
+                <ul>
+                    <li>header — 页面头部</li>
+                    <li>nav — 导航区域</li>
+                    <li>main — 核心内容（页面唯一）</li>
+                    <li>section — 内容分组</li>
+                    <li>article — 独立内容块</li>
+                    <li>aside — 侧边辅助</li>
+                    <li>footer — 页脚</li>
+                </ul>
+            </article>
+        </section>
+
+        <aside>
+            <small>&lt;aside&gt;</small>
+            <section>
+                <small>&lt;aside&gt;</small>
+                <h3>📌 语义标签速览</h3>
+                <ul>
+                    <li>header — 页眉</li>
+                    <li>footer — 页脚</li>
+                    <li>article — 文章</li>
+                    <li>section — 章节</li>
+                    <li>nav — 导航</li>
+                    <li>aside — 侧边</li>
+                    <li>main — 主内容</li>
+                </ul>
+            </section>
+            <section>
+                <small>&lt;aside&gt;</small>
+                <h3>📖 相关阅读</h3>
+                <ul>
+                    <li>HTML5 表单增强</li>
+                    <li>Canvas 绘图入门</li>
+                    <li>本地存储使用指南</li>
+                </ul>
+            </section>
+        </aside>
+
+    </main>
+
+    <footer>
+        <small>&lt;footer&gt;</small>
+        <p>© 2026 · HTML5 语义标签</p>
+    </footer>
+
+</body>
+</html>
